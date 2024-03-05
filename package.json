@@ -1,18 +1,14 @@
 {
-  "name": "@receter/my-component-library",
-  "author": "Andreas Riedmüller",
+  "name": "@salva-components",
+  "author": "Flora",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/receter/my-component-library"
-  },
   "sideEffects": [
     "**/*.css"
   ],
@@ -43,5 +39,10 @@
     "vite": "^4.5.0",
     "vite-plugin-dts": "^3.6.3",
     "vite-plugin-lib-inject-css": "^1.3.0"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.11",
+    "styled-components": "^6.1.8"
   }
 }
